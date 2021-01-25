@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "langums",
+            "request": "launch",
+            "name": "LangUMS Debug",
+            "langums": "${workspaceFolder}/langums.exe",
+            "args": [ 
+                "--reg", "${workspaceFolder}/registermap.txt",
+                "--debug-process", "StarCraft.exe"
+            ],
+            "map": "${workspaceFolder}/CPU_Cat_Revival_Template.scx",
+            "lang": "${workspaceFolder}/CPU_Cat_Revival.l",
+            "dst": "${workspaceFolder}/CPU_Cat_Revival_Debug.scx"
+        }
+    ]
+}
